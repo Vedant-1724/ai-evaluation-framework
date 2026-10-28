@@ -1,0 +1,203 @@
+
+[
+  {
+    "id": "rag-001",
+    "question": "What is Retrieval-Augmented Generation (RAG)?",
+    "expected_answer": "RAG combines information retrieval with a language model by retrieving relevant information from an external knowledge source and supplying it as context before answer generation.",
+    "relevant_sources": ["rag_reference.md"],
+    "relevant_chunk_ids": ["rag_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "rag-002",
+    "question": "How does a RAG system retrieve relevant document chunks?",
+    "expected_answer": "It splits documents into chunks, embeds the chunks and stores them with text and metadata, embeds the question, and retrieves the highest-ranked chunks by vector similarity.",
+    "relevant_sources": ["rag_reference.md"],
+    "relevant_chunk_ids": ["rag_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "rag-003",
+    "question": "Why are chunking and embeddings important in RAG?",
+    "expected_answer": "Chunking divides long documents into manageable passages, while embeddings represent semantic meaning numerically so conceptually related passages can be retrieved.",
+    "relevant_sources": ["rag_reference.md"],
+    "relevant_chunk_ids": ["rag_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "rag-004",
+    "question": "How does RAG help ground a language model's answers?",
+    "expected_answer": "RAG retrieves relevant information from an external knowledge source and provides it as context to the language model before it generates an answer.",
+    "relevant_sources": ["rag_reference.md"],
+    "relevant_chunk_ids": ["rag_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "rag-005",
+    "question": "How can a RAG knowledge source be updated without retraining the language model?",
+    "expected_answer": "The external knowledge source can be updated so the system retrieves updated information as context without retraining the language model.",
+    "relevant_sources": ["rag_reference.md"],
+    "relevant_chunk_ids": ["rag_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "ml-001",
+    "question": "What is supervised machine learning?",
+    "expected_answer": "It is a type of machine learning in which a model learns patterns from labelled training data containing input features and known targets or correct answers.",
+    "relevant_sources": ["machine_learning_reference.md"],
+    "relevant_chunk_ids": ["machine_learning_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "ml-002",
+    "question": "What information does each supervised training example contain?",
+    "expected_answer": "Each training example contains input features and a known target or correct answer.",
+    "relevant_sources": ["machine_learning_reference.md"],
+    "relevant_chunk_ids": ["machine_learning_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "ml-003",
+    "question": "How does a supervised model learn from training data?",
+    "expected_answer": "During training, the model adjusts its parameters to make predictions that match known targets, then uses learned patterns to predict outcomes for unseen inputs.",
+    "relevant_sources": ["machine_learning_reference.md"],
+    "relevant_chunk_ids": ["machine_learning_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "ml-004",
+    "question": "What is the difference between regression and classification?",
+    "expected_answer": "Regression predicts a continuous numerical value, while classification predicts a discrete class or category.",
+    "relevant_sources": ["machine_learning_reference.md"],
+    "relevant_chunk_ids": ["machine_learning_reference.md::chunk_0", "machine_learning_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "ml-005",
+    "question": "Which tasks are examples of supervised learning applications?",
+    "expected_answer": "Examples include price prediction, demand forecasting, image recognition, spam detection, fraud detection, and customer churn prediction.",
+    "relevant_sources": ["machine_learning_reference.md"],
+    "relevant_chunk_ids": ["machine_learning_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "dl-001",
+    "question": "What is a neural network?",
+    "expected_answer": "A neural network is a machine learning model made of interconnected layers of artificial neurons that transform inputs into predictions or useful representations.",
+    "relevant_sources": ["deep_learning_reference.md"],
+    "relevant_chunk_ids": ["deep_learning_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "dl-002",
+    "question": "What are the input, hidden, and output layers responsible for?",
+    "expected_answer": "The input layer receives features, hidden layers learn patterns and relationships, and the output layer produces the final prediction.",
+    "relevant_sources": ["deep_learning_reference.md"],
+    "relevant_chunk_ids": ["deep_learning_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "dl-003",
+    "question": "What roles do weights and biases play in a neural network?",
+    "expected_answer": "Weights and biases are trainable parameters that influence the network's output and are adjusted during training to reduce prediction errors.",
+    "relevant_sources": ["deep_learning_reference.md"],
+    "relevant_chunk_ids": ["deep_learning_reference.md::chunk_0", "deep_learning_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "dl-004",
+    "question": "What is the purpose of an activation function?",
+    "expected_answer": "An activation function introduces non-linearity so that a neural network can learn complex patterns.",
+    "relevant_sources": ["deep_learning_reference.md"],
+    "relevant_chunk_ids": ["deep_learning_reference.md::chunk_0", "deep_learning_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "dl-005",
+    "question": "How do backpropagation and an optimizer help train a neural network?",
+    "expected_answer": "Backpropagation calculates gradients, and an optimizer uses those gradients to update weights and biases to reduce prediction error over repeated training iterations.",
+    "relevant_sources": ["deep_learning_reference.md"],
+    "relevant_chunk_ids": ["deep_learning_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "genai-001",
+    "question": "What are large language models (LLMs)?",
+    "expected_answer": "LLMs are machine learning models trained on large amounts of text to understand and generate human-like language by learning statistical patterns and predicting tokens.",
+    "relevant_sources": ["generative_ai_reference.md"],
+    "relevant_chunk_ids": ["generative_ai_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "genai-002",
+    "question": "What kinds of tasks can LLMs perform?",
+    "expected_answer": "LLMs can answer questions, summarize documents, translate text, generate code, and follow instructions.",
+    "relevant_sources": ["generative_ai_reference.md"],
+    "relevant_chunk_ids": ["generative_ai_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "genai-003",
+    "question": "What is transformer architecture?",
+    "expected_answer": "A transformer is a neural network architecture used in modern language models. Its attention mechanism helps determine how tokens relate to one another.",
+    "relevant_sources": ["generative_ai_reference.md"],
+    "relevant_chunk_ids": ["generative_ai_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "genai-004",
+    "question": "What is self-attention?",
+    "expected_answer": "Self-attention calculates how much importance each token should give to other tokens when building its representation, helping the model use context from different parts of a sequence.",
+    "relevant_sources": ["generative_ai_reference.md"],
+    "relevant_chunk_ids": ["generative_ai_reference.md::chunk_0", "generative_ai_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "genai-005",
+    "question": "What are common applications of generative AI?",
+    "expected_answer": "Generative AI can produce text, code, images, summaries, and other content. Applications include chatbots, coding assistants, document analysis, content generation, and question-answering systems.",
+    "relevant_sources": ["generative_ai_reference.md"],
+    "relevant_chunk_ids": ["generative_ai_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "python-001",
+    "question": "What is a Python function?",
+    "expected_answer": "A Python function is a reusable block of code designed to perform a specific task, helping organize programs, reduce repetition, and improve readability.",
+    "relevant_sources": ["python_reference.md"],
+    "relevant_chunk_ids": ["python_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "python-002",
+    "question": "How do you define and call a function in Python?",
+    "expected_answer": "Define a function with the def keyword followed by its name, parentheses, and a colon. Call it by writing its name followed by parentheses and supplying any required arguments.",
+    "relevant_sources": ["python_reference.md"],
+    "relevant_chunk_ids": ["python_reference.md::chunk_0"],
+    "status": "labelled"
+  },
+  {
+    "id": "python-003",
+    "question": "What is the difference between parameters and arguments in Python?",
+    "expected_answer": "Parameters are the names declared in a function definition, while arguments are the values supplied when the function is called.",
+    "relevant_sources": ["python_reference.md"],
+    "relevant_chunk_ids": ["python_reference.md::chunk_0", "python_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "python-004",
+    "question": "What is the purpose of the return statement?",
+    "expected_answer": "The return statement sends a calculated result back to the caller of a function.",
+    "relevant_sources": ["python_reference.md"],
+    "relevant_chunk_ids": ["python_reference.md::chunk_0", "python_reference.md::chunk_1"],
+    "status": "labelled"
+  },
+  {
+    "id": "python-005",
+    "question": "What are built-in, user-defined, and lambda functions?",
+    "expected_answer": "Built-in functions are provided by Python, user-defined functions are created by programmers using def, and lambda functions are small anonymous functions created using lambda.",
+    "relevant_sources": ["python_reference.md"],
+    "relevant_chunk_ids": ["python_reference.md::chunk_1"],
+    "status": "labelled"
+  }
+]

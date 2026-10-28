@@ -1,0 +1,93 @@
+
+[
+  {
+    "id": "rag-001",
+    "question": "What is Retrieval-Augmented Generation (RAG)?",
+    "relevant_sources": [
+      "rag_reference.md"
+    ],
+    "relevant_chunk_ids": [
+      "rag_reference.md::chunk_0"
+    ],
+    "status": "labelled"
+  },
+  {
+    "id": "rag-002",
+    "question": "How does a RAG system retrieve relevant document chunks?",
+    "relevant_sources": [
+      "rag_reference.md"
+    ],
+    "relevant_chunk_ids": [
+      "rag_reference.md::chunk_0"
+    ],
+    "status": "labelled"
+  },
+  {
+    "id": "ml-001",
+    "question": "What is supervised machine learning?",
+    "relevant_sources": [
+      "machine_learning_reference.md"
+    ],
+    "relevant_chunk_ids": [
+      "machine_learning_reference.md::chunk_0"
+    ],
+    "status": "labelled"
+  },
+  {
+    "id": "ml-002",
+    "question": "What is the difference between regression and classification?",
+    "relevant_sources": [
+      "machine_learning_reference.md"
+    ],
+    "relevant_chunk_ids": [
+      "machine_learning_reference.md::chunk_0",
+      "machine_learning_reference.md::chunk_1"
+    ],
+    "status": "labelled"
+  },
+  {
+    "id": "dl-001",
+    "question": "What is a neural network?",
+    "relevant_sources": [
+      "deep_learning_reference.md"
+    ],
+    "relevant_chunk_ids": [
+      "deep_learning_reference.md::chunk_0"
+    ],
+    "status": "labelled"
+  },
+  {
+    "id": "genai-001",
+    "question": "What are large language models?",
+    "relevant_sources": [
+      "generative_ai_reference.md"
+    ],
+    "relevant_chunk_ids": [
+      "generative_ai_reference.md::chunk_0"
+    ],
+    "status": "labelled"
+  },
+  {
+    "id": "genai-002",
+    "question": "What is a transformer architecture?",
+    "relevant_sources": [
+      "generative_ai_reference.md"
+    ],
+    "relevant_chunk_ids": [
+      "generative_ai_reference.md::chunk_0"
+    ],
+    "status": "labelled"
+  },
+  {
+    "id": "python-001",
+    "question": "What are Python functions and how are they used?",
+    "relevant_sources": [
+      "python_reference.md"
+    ],
+    "relevant_chunk_ids": [
+      "python_reference.md::chunk_0",
+      "python_reference.md::chunk_1"
+    ],
+    "status": "labelled"
+  }
+]
